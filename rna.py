@@ -33,7 +33,7 @@ def drop_many_nulls(df):
         'BsmtUnfSF', '2ndFlrSF', 'LowQualFinSF', 'WoodDeckSF', 'OpenPorchSF',
         'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'Alley', 'ExterCond',
         'BsmtHalfBath', 'KitchenAbvGr', 'PoolQC', 'Fence', 'MiscFeature', 'MiscFeature',
-        'FireplaceQu', 'MasVnrType', 
+        'FireplaceQu', 'MasVnrType', 'LotFrontage', 'GarageYrBlt'
     ]
     df = df.drop(columns=drop_columns, errors='ignore')
     
